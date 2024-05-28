@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="../assets/images/snake_icon.jpg" rel="icon" type="image"/>
+  <link href="https://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+  <title>Snake Home</title>
+</head>
+<body>
+  <div class="titolo" align="center">SNAKE</div>
+  <div class="container" align=center>
+    <div class="modalita">
+      <div>
+          <p>NAME:</p><input type="text" id="name" maxlength="3" value="" placeholder="ABC">
+      </div>
+      <div class="colorhead">
+          <p>COLOR HEAD:</p><input type="color" id="color" value="#ff0000">             
+      </div>
+      <div class="colorbody">
+        <p>COLOR BODY:</p><input type="color" id="color" value="#147df5">
+      </div>
+      <p>SPEED:</p>
+      <div class="speed">
+        <input type="radio"  name="speed" id="speednormal" value="400"><p>SLOW</p>
+        <input type="radio"  name="speed" id="speednormal" value="250"><p>MEDIUM</p>
+        <input type="radio"  name="speed" id="speednormal" value="100"><p>FAST</p>
+      </div>
+      <p>SCALE:</p>
+      <div class="speed">
+        <input type="radio"  name="scale" id="scalenormal" value="20"><p>SMALL</p>
+        <input type="radio"  name="scale" id="scalenormal" value="30"><p>MEDIUM</p>
+        <input type="radio"  name="scale" id="scalenormal" value="40"><p>BIG</p>
+      </div>
+      <a href="normal/normal.html"><button class="home" id="save_normal">PLAY</button></a>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
